@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import axios from "../utils/Axios";
+// import axios from "../utils/axios";
 import Loading from "./Loading";
 import { ProductContext } from "../utils/Context";
 import { toast } from "react-toastify";

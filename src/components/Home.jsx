@@ -4,7 +4,7 @@ import Card from "./Card";
 import { ProductContext } from "../utils/Context";
 import Loading from "./Loading";
 import { useLocation } from "react-router-dom";
-import axios from "../utils/Axios";
+// import axios from "../utils/axios";
 
 const Home = () => {
 	const [products] = useContext(ProductContext);

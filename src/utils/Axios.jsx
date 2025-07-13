@@ -1,4 +1,4 @@
-import axios from "Axios";
+import axios from "axios";
 
 const instance = axios.create({
 	baseURL: "https://fakestoreapi.com/",
